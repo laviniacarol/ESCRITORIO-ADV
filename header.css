@@ -1,0 +1,19 @@
+@font-face {
+    font-family: play;
+    src: url(PlayfairDisplay-Regular.woff);
+}
+
+
+header {
+    position: absolute;
+    background-color: #152039;
+    width: 100%;
+    font-family: play;
+    height: 70px; 
+}
+
+header p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
