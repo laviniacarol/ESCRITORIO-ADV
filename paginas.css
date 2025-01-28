@@ -31,10 +31,11 @@ body {
 /* logo TC principal da primeira página */
 #main {
     position: absolute;
-    top: 140px;
+    top: 170px;
     left: 650px;
     line-height: 5px;
     align-items: center;
+    font-size: 88px;
   }  
 
 #main h1 {
@@ -47,7 +48,7 @@ body {
 /* parte da logo ADVOCACIA do TC */
 #main-second {
     position: absolute;
-    top: 232px;
+    top: 262px;
     left: 770px;
     line-height: 5px;
     align-items: center;
@@ -103,8 +104,8 @@ body {
 
 /* animação dos icones */
 .icones :hover {
-    transform: scale(1.03);
-    transition: .8s;
+    transform: scale(1.04);
+    transition: .6s;
 }
 
 
@@ -171,7 +172,7 @@ body {
 
 .conteudo {
     width: 18.7%;
-    height: 100%;
+    height: 99%;
     position: absolute;
     background: #0d19357e;
     top: 1px;
@@ -202,11 +203,11 @@ body {
     color: rgba(255, 246, 246, 0.979);
 }
 
-/* texto na imagem VICENTE */
+/* texto na imagem OLGA */
 
 .conteudo2 {
-    width: 18.9%;
-    height: 101%;
+    width: 19.0%;
+    height: 99%;
     position: absolute;
     background: #0d19357e;
     top: 1px;
@@ -218,6 +219,7 @@ body {
 
 .conteudo2:hover {
     opacity: 1;
+    
 
 }
 
@@ -241,8 +243,8 @@ body {
 /* texto na imagem VICENTE */
 
 .conteudo3 {
-    width: 18.9%;
-    height: 101%;
+    width: 19.0%;
+    height: 99%;
     position: absolute;
     background: #0d19357e;
     top: 1px;
@@ -380,6 +382,10 @@ body {
     top: 250px;
 }
 
+
+
+
+/* ADICIONANDO MAPA DO ESCRITÓRIO*/
 .mapa {
     top: 1530px;
     left: 1000px;
@@ -387,6 +393,7 @@ body {
     height: 460px;
 }
 
+/* PEQUENO TEXTO ABAIXO DO MAPA, HORÁRIOS*/
 #horario h3{
     font-family: sand;
     top: 260px;
@@ -396,17 +403,30 @@ body {
 }
 
 
-#escritorio h1 {
+/* TEXTO - CONTATO*/
+#contato {
+    left: 200px;
+    position: absolute;
+    top: 1490px;
+    font-size: 20px;
     font-family: sand;
-    position: relative;
-    right: 570px;
-    font-size: 40px;
-    top: 270px;
+    color: #152039;
 }
 
 
+/* TEXTO - ACIMA DAS IMAGENS DO ESCRITÓRIO*/
+#escritorio h1 {
+    font-family: enth;
+    position: absolute;
+    left: 800px;
+    font-size: 40px;
+    top: 2060px;
+}
+
+
+/* FOTOS DO ESCRITÓRIO*/
 #escritorio img {
-    top: 260px;
+    top: 380px;
     position: relative;
     left: 200px;
     height: 450px;
@@ -414,3 +434,25 @@ body {
     border-radius: 1%;
 }
 
+
+#texto-final h1 {
+    position: relative;
+    top: 400px;
+    font-family: sand;
+}
+
+#texto-final span {
+    color: red;
+}
+
+#texto-final p {
+    text-align: center;
+    font-family: sand, sans-serif;
+    font-size: 24px;
+    color: #152039;
+    position: relative;
+    overflow: hidden;
+    top: 395px; 
+    padding-left: 210px;  
+    padding-right: 210px;
+}
