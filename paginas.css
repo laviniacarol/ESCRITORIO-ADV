@@ -323,7 +323,7 @@ body {
 
 /* POSICIONANDO OS ICONES DE CONTATO*/
 .icones2 img {
-    height: 60px;
+    height: 65px;
     border-radius: 6%;
     margin: 0%;
     position: relative;
@@ -333,53 +333,52 @@ body {
 
     /* PARA DIMINUIR O ESPAÇO ENTRE OS ICONES USEI O ID POIS O GAP NO FLEX DIRECTION COLUNM NÃO RESPONDEU*/
 #localizacao {
-    top: 510px
+    top: 530px
     }
 
 #email {
-    top: 460px;
+    top: 490px;
 }
 
 #wpp {
-    top: 410px;
+    top: 440px;
 }
 
 #link {
-    top: 360px;
+    top: 390px;
 }
 
 #git {
-    top: 310px;
+    top: 340px;
 }
 
 /* TEXTO DA PÁGINA DE CONTATO*/
 .icones2 p {
     position: relative;
-    left: 270px;
+    left: 280px;
     font-family: sand, sans-serif;
     font-size: 19px;
-    top: 440px;
 }
 
-/* NOVAMENTE ORGANIZANDO AS DISTANTE ENTRE AS PALAVRAS*/
+/* ORGANIZANDO AS DISTANTE ENTRE AS PALAVRAS*/
 #localizacao2 {
-    top: 440px;
+    top: 465px;
 }
 
 #email2 {
-    top: 390px;
+    top: 425px;
 }
 
 #wpp2 {
-    top: 340px;
+    top: 385px;
 }
 
 #link2 {
-    top: 300px;
+    top: 325px;
 }
 
 #git2 {
-    top: 250px;
+    top: 275px;
 }
 
 
@@ -407,26 +406,15 @@ body {
 #contato {
     left: 200px;
     position: absolute;
-    top: 1490px;
+    top: 1515px;
     font-size: 20px;
     font-family: sand;
     color: #152039;
 }
 
-
-/* TEXTO - ACIMA DAS IMAGENS DO ESCRITÓRIO*/
-#escritorio h1 {
-    font-family: enth;
-    position: absolute;
-    left: 800px;
-    font-size: 40px;
-    top: 2060px;
-}
-
-
 /* FOTOS DO ESCRITÓRIO*/
 #escritorio img {
-    top: 380px;
+    top: 290px;
     position: relative;
     left: 200px;
     height: 450px;
@@ -437,22 +425,24 @@ body {
 
 #texto-final h1 {
     position: relative;
-    top: 400px;
+    top: 315px;
     font-family: sand;
+    left: 800px;
+    font-size: 38px;
 }
 
 #texto-final span {
-    color: red;
+    color: rgba(185, 145, 35, 0.979);
 }
 
 #texto-final p {
     text-align: center;
     font-family: sand, sans-serif;
-    font-size: 24px;
-    color: #152039;
+    font-size: 25px;
+    color: #172442;
     position: relative;
     overflow: hidden;
-    top: 395px; 
+    top: 310px; 
     padding-left: 210px;  
     padding-right: 210px;
 }
